@@ -2,7 +2,8 @@
 //  ContentView.swift
 //  Calculator
 //
-//  Created by Aman Gill on 2022-07-13.
+//  Created by Amanjot singh Gill on 2022-07-13.
+//Student id-A00246495
 //
 
 import SwiftUI
@@ -63,7 +64,7 @@ struct ContentView: View {
                         .foregroundColor(.black)
                 }
                 
-            //  buttons
+            //  Setting buttons
                 ForEach (buttons, id: \.self) {row in
                     HStack (spacing: 12){
                         ForEach(row, id: \.self) { item in
